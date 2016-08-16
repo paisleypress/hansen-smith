@@ -23,14 +23,14 @@ h1, h2, h3 {
 h1 {
     font-size:2em;
 }
-#banner{
+/*#banner{
     overflow:hidden;
     padding: 175px 0px;
     background-color: #ffffff;
     background: url(../images/HansenSmithHeader.png) no-repeat center center #ffc0cb;
     background-size: cover;
     text-align: center;
-}
+}*/
 
 #bannerText{
     color: #ffffff;
