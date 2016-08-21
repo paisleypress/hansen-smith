@@ -1,0 +1,27 @@
+.pageHeader{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px #4a4a4a;
+    font-weight: bold;
+    font-size: 2.5em;
+    }
+.leftColumn, .rightColumn {
+    background-color:#81abdb;
+    color:#ffffff;
+    text-align:center;
+    font-weight: 400;
+    border-radius: 8px;
+    padding-top: 15px;
+}
+.faqColumns{
+    display: flex;
+    justify-content: center;
+}
+.leftColumn{
+    margin-right: 40px;
+}
+.section-text{
+    text-decoration: underline;
+    font-weight: bold;
+}

@@ -3,18 +3,29 @@ html, body {
       height:100%;
 }
 body {
-     margin:0px;
-     padding:0px;
+     margin: 0px !important;
+     padding:0px !important;
      background-color:#b5cdbb;
      font-family:'Trebuchet MS', Verdana, sans-serif;
      font-size:16px;
      font-weight:500;
      color:#000000;
 }
+
+.jumbotron{
+    width: 100%;
+    height: 375px;
+    background-image: url('../images/HansenSmithHeader.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
 main{
     margin:20px;
     overflow: hidden;
 }
+/* ==============  HEADER STYLES  ==============  */
 h1, h2, h3 {
       margin:0px;
       padding:0px;
@@ -23,35 +34,52 @@ h1, h2, h3 {
 h1 {
     font-size:2em;
 }
-/*#banner{
-    overflow:hidden;
-    padding: 175px 0px;
+.header{
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+.navbar {
+    position: absolute;
+    margin: 0px !important;
+    z-index: 30;
+    width:100%;
+    padding: 0px !important;
+    margin: 0px !important;
     background-color: #ffffff;
-    background: url(../images/HansenSmithHeader.png) no-repeat center center #ffc0cb;
-    background-size: cover;
+}
+.navbar-collapsse{
+    height: 35px !important;
+}
+.navbar-header {
+    /*background-color: #pink;*/
+    width:100%;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.navbar-default {
+    background-color:#b5cdbb;
+    border: none;
+    margin: 0px !important;
+}
+.navbar-right{
     text-align: center;
-}*/
-
-#bannerText{
-    color: #ffffff;
-    font-size: 6em;
-    text-align: center;
-    text-shadow: 6px 6px 4px #e6005c;
 }
-p {
-   color:#545454;
-   margin: 15px 0px;
-   line-height: 20px;
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent;
+    color: blue;
 }
-a{
-    color: #ffffff;
-    text-decoration: none;
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    color: #000000;
 }
-a:hover{
-    color:#80cd32;
-    /*background-color: #ffffff;*/
+.navbar-default .navbar-nav > li > a{
+    color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #80cd32;
     font-weight: 600;
 }
+
 figure{
     padding: 10px;
     background-color:#80cd32;
@@ -64,124 +92,43 @@ figcaption{
     font-size: 2em;
 }
 
-/* ==============  HEADER STYLES  ==============  */
-/*header{*/
-/*    height:150px;*/
-/*    background-color:#ffc0cb;*/
-/*}*/
 
-#logo{
-    color:#000000;
-    /*position: relative;*/
-    position: absolute;
-    top: 55px;
-    left: 170px;
-}
-#logo:hover{
-    background-color: #ffc0cb;
-}
 
 /* ==============  NAVIGATION STYLES  ==============  */
 
-#menu{
-    position: absolute;
-    /*top: 20px;*/
-    right: 20px;
-    float: right;
-	width: 25%;
-	/*padding: 20px 20px 0px 20px;*/
-	top: 200px;
-}
-#menu ul li{
-    /*display: inline;*/
-    display: inline-block;
-    /*margin: 0px 10px;*/
-    background-color: #b5cdbb;
-    padding: 10px 15px 4px 15px;
-    border-radius: 8px 8px 0px 0px;
-}
-#menu li:hover{
-    color: #000000;
-    background-color: #ffffff;
-}
 
 .currentPage{
     color:#000000;
 }
 
-/* ==============  HEADER STYLES  ==============  */
-
-/*header{
-    overflow:hidden;*/
-    /*display: inline-block;*/
-    /*background: url(/images/HansenSmithHeader.png) no-repeat center center #ffc0cb;*/
-    /*padding: 175px 0px;
-    border-top: 6px dotted #000000;*/
-    /*border-bottom: 6px solid #000000;
-    background-color: #aeaeae;    */
-    /*background-size: cover;
-    text-align: center;*/
-
-/*.header h1{
-    color: #ffffff;
-    text-align: center;
-    text-shadow: 6px 6px 4px #4B98E5;
-     font-size: 2em;
-}*/
-/*#banner .button{*/
-/*    background-color: #ffffff;*/
-/*    color: #e6005c;*/
-/*    margin-top: 50px;*/
-    /*top:145px;*/
-    /*right: 500px;*/
-/*    font-size: 1.25em;*/
-/*}*/
-/*#banner .button:hover{*/
-/*    color:#ffffff;*/
-/*    background-color: #e6005c;*/
-/*}   */
-
 /* ==============  COLUMN STYLES  ==============  */
-
+.column-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .columnA, .columnB, .columnC {
     background-color:#81abdb;
-    /*height:610px;*/
-    width:384px;
+    width:400px;
     color:#ffffff;
     text-align:center;
     font-weight: 400;
     border-radius: 8px;
-    /*margin:8px;*/
 }
-
 .columnA, .columnB{
-    /*float:left;*/
-    margin-right: 24px;
+    margin-right: 36px;
 }
-
 .columnA h2, .columnB h2, .columnC h2 {
     font-size: 1.5em;
     font-weight: 700;
     text-align: center;
-    /*margin: 15px 0px;*/
-    /*    */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
 .columnA p, .columnB p, .columnC p {
     padding: 5px;
     text-align: justify;
 }
-
-/*.columnA span, .columnB span, .columnC span {*/
-/*    background-color:#ffc0cb;*/
-/*    color: #ffffff;*/
-/*    display: block;*/
-/*    font-size: 1.5em;*/
-/*    font-weight: 600;*/
-/*    text-align: center;*/
-/*    padding: 15px;*/
-/*}*/
-
 /* ============== BUTTON STYLES ============== */
 .button {
 	background-color: #b5cdbb;
@@ -225,6 +172,10 @@ figcaption{
 .aboutMe p{
     text-align: justify;
 }
+.contact-form-data{
+    background-color: #81abdb;
+}
+
 /* ==============  FOOTER STYLES  ==============  */
 footer {
     height: 125PX;
@@ -241,9 +192,13 @@ footer {
     border: solid 5px #ffffff;
     font-size: 2em !important;
     border-radius: 100%;
-    width: 28px;
-    height: 28px;
+    width: 70px;
+    height: 70px;
     padding: 12px;
     margin: 0px 15px;
     text-align: center;
+}
+/* ==============  ABOUT PAGE SPECIFIC STYLES  ==============  */
+.about-text-1{
+    padding-top: 30px;
 }

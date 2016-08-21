@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hansen-Smith Home</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -19,54 +20,80 @@
 
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
         <link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
+
     </head>
         <body>
-            <div id="banner">
-                <a href="about.html" title="" target="_blank" class="button">Meet The Classmates</a>
-            </div>
             <header>
-
-                <a href="" title="index.html"><img src="images/HansenSmithHeader.png" alt="" title=""></img></a>
-
-                <nav id="menu">
-                    <ul>
-                        <li><a href="index.html" title="" class="currentPage">Home </a></li>
-                        <li><a href="about.html" title="">About</a></li>
-                        <li><a href="contact.html" title="">Contact</a></li>
-                    </ul>
+                <!--======== BEGIN NAVIGATION ============-->
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <div class="col-md-2">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-4">
+                            <!--Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right">
+                                      <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                                      <li><a href="about.html">About the Doctor</a></li>
+                                      <li><a href="concierge.html">Concierge Medicine</a></li>
+                                      <li><a href="faq.html">FAQ</a></li>
+                                      <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>    <!--end navbar-collapse -->
+                            </div>    <!--end col-md-4 -->
+                        </div>    <!-- end navbar-header -->
+                    </div>    <!-- end container-fluid -->
                 </nav>
+                <!--======== END NAVIGATION ============-->
+                <!--======== BEGIN JUMBOTRON ============-->
+                <div class="jumbotron text-center">
+                        <!-- <div class="header-img img-responsive"> -->
+        					<p class="header-text center-block"></p>
+        				</div> <!-- end of image center text -->
+    			    <!-- </div> -->
+            	</div> <!--======== END OF JUMBOTRON ============-->
+
             </header>
 
             <main>
-
-                <div class="row">
-                    <div class=col-md-1 column-left>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-1 column-left"></div>
+                        <div class="col-md-10 column-main">
+                            <div class="row">
+                                <div class="col-md-4 columnA pull-left">
+                                    <h2>Concierge Medicine</h2>
+                                    <img src="images/conciergeMedicine.jpg" alt="" title=""></img>
+                                    <p>Welcome to the Hansen-Smith Family Medicine web site. Hansen-Smith Family Medicine is a concierge medical practice with a limited number of patients. Limiting the number of patients in the practice allows for a more personal level of care with history.</p>
+                                    <a href="" title="" target="_blank" class="button">How It Works</a>
+                                </div>
+                                <div class="col-md-4 columnB">
+                                    <h2>Dr. Karen Hansen-Smith</h2>
+                                    <img src="images/DrKaren.png" alt="" title=""></img>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, deleniti, amet, eos, perferendis sed suscipit quam molestias nulla hic ipsa ex ducimus dignissimos nihil inventore dolorem perspiciatis distinctio repellat aspernatur optio nostrum. Quibusdam, laboriosam, omnis consectetur deserunt dolore perspiciatis minus.</p>
+                                    <a href="" title="" target="_blank" class="button">Meet the Doctor</a> </a>
+                                </div>
+                                <div class="col-md-4 columnC pull-right">
+                                    <h2>Frequently Asked Questions</h2>
+                                    <img src="images/FAQImage.jpg" alt="" title=""></img>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, deleniti, amet, eos, perferendis sed suscipit quam molestias nulla hic ipsa ex ducimus dignissimos nihil inventore dolorem perspiciatis distinctio repellat aspernatur optio nostrum. Quibusdam, laboriosam, omnis consectetur deserunt dolore perspiciatis minus.</p>
+                                    <a href="" title="" target="_blank" class="button">Find Out More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 column-right"></div>
                     </div>
-                    <div class="col-md-10 column-main">
-                        <div class="col-md-4 columnA">
-                            <h2>Concierge Medicine</h2>
-                            <img src="images/conciergeMedicine.jpg" alt="" title=""></img>
-                            <p>Welcome to the Hansen-Smith Family Medicine web site. Hansen-Smith Family Medicine is a concierge medical practice with a limited number of patients. Limiting the number of patients in the practice allows for a more personal level of care with history.</p>
-                            <a href="" title="" target="_blank" class="button">How It Works</a>
-                        </div>
-                        <div class="col-md-4 columnB">
-                            <h2>Dr. Karen Hansen-Smith</h2>
-                            <img src="images/drHansenSmith.jpg" alt="" title=""></img>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, deleniti, amet, eos, perferendis sed suscipit quam molestias nulla hic ipsa ex ducimus dignissimos nihil inventore dolorem perspiciatis distinctio repellat aspernatur optio nostrum. Quibusdam, laboriosam, omnis consectetur deserunt dolore perspiciatis minus.</p>
-                            <a href="" title="" target="_blank" class="button">Meet the Doctor</a> </a>
-                        </div>
-                        <div class="col-md-4 columnC">
-                            <h2>Frequently Asked Questions</h2>
-                            <img src="images/FAQImage.jpg" alt="" title=""></img>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, deleniti, amet, eos, perferendis sed suscipit quam molestias nulla hic ipsa ex ducimus dignissimos nihil inventore dolorem perspiciatis distinctio repellat aspernatur optio nostrum. Quibusdam, laboriosam, omnis consectetur deserunt dolore perspiciatis minus.</p>
-                            <a href="" title="" target="_blank" class="button">Find Out More</a>
-                        </div>
-                        <div class=col-md-1 column-right>
-                        </div>
-                    </div>
+                    <br>
+                    <br>
                 </div>
-                <br>
-                <br>
             </main>
             <footer>
                 <div>
