@@ -173,7 +173,10 @@ figcaption{
     text-align: justify;
 }
 .contact-form-data{
+    padding-top: 7px;
     background-color: #81abdb;
+    margin-top: 125px;
+    margin-left: 40px;
 }
 
 /* ==============  FOOTER STYLES  ==============  */
@@ -201,4 +204,32 @@ footer {
 /* ==============  ABOUT PAGE SPECIFIC STYLES  ==============  */
 .about-text-1{
     padding-top: 30px;
+}
+/* ==============  CONCIERGE PAGE SPECIFIC STYLES  ==============  */
+.tbl-head{
+    font-size: 16px;
+    font-weight: bolder;
+    border-bottom: 2px solid #000000;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+th{
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center;
+    line-height: 2em;
+}
+tr{
+    border-bottom: 2px solid #aeaeae;
+}
+td{
+    text-align: center;
+    padding-right: 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #aeaeae;
+    line-height: 2em;
+}
+.sectionHeader{
+    font-style: italic;
+    text-decoration-line: underline;
 }
